@@ -2,8 +2,8 @@ package partie6;
 
 public class Point {
 	public int x; int y;
-	public Point(int x, int y) throws ErrConst{
-		if((x < 0) || (y <  0)) throw new ErrConst(x,y);
+	public Point(int x, int y) throws ErrConst{ // throws signifie que la fonction peut retourner une erreur
+		if((x < 0) || (y <  0)) throw new ErrConst(x,y); // throw new donne l'erreur a envoyé
 		this.x = x; this.y = y;
 	}
 	public void affiche() {

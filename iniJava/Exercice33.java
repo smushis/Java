@@ -2,7 +2,7 @@ package iniJava;
 
 public class Exercice33 {
 	public static void main (String[] argv) {
-		Voiture3 voiture1 = new Voiture3();
+		Voiture3 voiture1 = new Voiture3(); //def new voiture
 		Voiture3 voiture2 = new Voiture3();
 		
 		voiture1.SetDemarrage(false);

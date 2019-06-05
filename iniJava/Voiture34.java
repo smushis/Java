@@ -1,13 +1,13 @@
 package iniJava;
 
 public class Voiture34 {
-	private char nom;
-	private static int nbVoitures;
+	private char nom;  // Variables de l'objet de la classe
+	private static int nbVoitures; //Static = variable classe (et pas objet)
 	private static Voiture34[] listeVoitures = new Voiture34[10];
 	private int puissance;
 	private int vitesse;
 	private boolean estDemarre;
-	
+	// Liste des méthodes
 	public void SetNom(char n) {
 		this.nom = n;
 	}

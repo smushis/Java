@@ -8,7 +8,7 @@ public class Voiture34 {
 	private int puissance;
 	private double vitesse;
 	private boolean estDemarre;
-	private Date dateCreation;
+	private Date dateCreation; // type Date (pas oublier la librairie)
 	
 	// Vitesse
 	public Voiture34(double v) {

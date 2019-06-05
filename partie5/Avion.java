@@ -8,7 +8,7 @@ public class Avion extends Object{
 		this.puissance = p;
 	}
 	public boolean equals(Object o) {
-		if (o instanceof Avion) {
+		if (o instanceof Avion) { // instanceof : on test la classe d'un objet avec une autre classe
 			if(((Avion) o).vitesse == this.vitesse) {
 				return true;
 			}

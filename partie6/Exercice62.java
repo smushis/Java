@@ -14,7 +14,7 @@ public class Exercice62 {
 		Doc.addAuthor("moi");
 		Doc.addCreationDate();
 		Doc.addTitle("first doc");
-		try {
+		try { // Exception 
 			FileOutputStream fos = new FileOutputStream("Fichier.pdf");
 			PdfWriter writer = PdfWriter.getInstance(Doc, fos);
 			Doc.open();

@@ -1,6 +1,6 @@
 package partie6;
 
-public class ErrConst extends Exception {
+public class ErrConst extends Exception { // Classe pour un type d'erreur de construction
 	private String Message;
 	private int abs;
 	private int ord;
