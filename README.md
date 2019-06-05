@@ -1,6 +1,6 @@
 # Java  
 
-Fichiers commentés et/ou importants :
+Fichiers commentés et/ou importants :  
   -InitJava/Exercice21 (simple code)  
   -InitJava/Voiture34 (def d'une classe et de ces méthodes/variables)  
   -partie4/VehiculePrioritaire (Extends : classe mère/fille et Super : appel méthode classe mère)  
