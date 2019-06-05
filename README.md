@@ -8,5 +8,5 @@ Fichiers commentés brièvement et/ou importants :
   -partie5/Forme (Abstract (Virtual en c++))  
   -partie5/Avion (utilisation de instanceOf pour tester 2 types de classe entre elles)  
   -partie6/Point (Exception : Throws et Throw new)  
-  -partie6/Exercice62 (Exception : Try/Catach et utilisation des librairies Document/Paragraph/PdfWriter/...  
+  -partie6/Exercice62 (Exception : Try/Catch et utilisation des librairies Document/Paragraph/PdfWriter/...  
   -partie6/ErrConst (Exception: Création d'une classe pour gérer un type d'exception)  
